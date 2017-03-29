@@ -15,7 +15,7 @@ $ cd app
 $ bower install
 ```
 
-## Instialize application ##
+## Initialize application ##
 
 ```
 $ ./manage.py migrate
