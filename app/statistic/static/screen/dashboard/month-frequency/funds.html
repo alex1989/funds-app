@@ -1,0 +1,9 @@
+<div class="col-sm-12" ng-controller="MonthFrequencyListController" >
+    <h1>Funds</h1>
+    <div class="list-group">
+        <a ui-sref="dashboard.month_frequency_detail({fundsId: fund.id})"
+           ui-sref-active="active"
+           ng-repeat="fund in funds"
+           class="list-group-item">{{ fund.name }}</a>
+    </div>
+</div>

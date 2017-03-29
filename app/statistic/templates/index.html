@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block extra_js %}
+<script src="{% static 'app.js' %}"></script>
+
+<script src="{% static 'services/services.js' %}"></script>
+<script src="{% static 'services/funds.js' %}"></script>
+
+<script src="{% static 'screen/dashboard/dashboard.js' %}"></script>
+<script src="{% static 'screen/dashboard/scale/scale.js' %}"></script>
+<script src="{% static 'screen/dashboard/funds/funds.js' %}"></script>
+<script src="{% static 'screen/dashboard/funds/detail/detail.js' %}"></script>
+<script src="{% static 'screen/dashboard/month-frequency/funds.js' %}"></script>
+<script src="{% static 'screen/dashboard/month-frequency/detail/detail.js' %}"></script>
+
+
+{% endblock %}
