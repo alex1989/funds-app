@@ -1,37 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <django-objects version="1.0">
-  <object model="contenttypes.contenttype" pk="1">
-    <field name="app_label" type="CharField">admin</field>
-    <field name="model" type="CharField">logentry</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="2">
-    <field name="app_label" type="CharField">auth</field>
-    <field name="model" type="CharField">group</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="3">
-    <field name="app_label" type="CharField">auth</field>
-    <field name="model" type="CharField">user</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="4">
-    <field name="app_label" type="CharField">auth</field>
-    <field name="model" type="CharField">permission</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="5">
-    <field name="app_label" type="CharField">contenttypes</field>
-    <field name="model" type="CharField">contenttype</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="6">
-    <field name="app_label" type="CharField">sessions</field>
-    <field name="model" type="CharField">session</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="7">
-    <field name="app_label" type="CharField">statistic</field>
-    <field name="model" type="CharField">collecteddata</field>
-  </object>
-  <object model="contenttypes.contenttype" pk="8">
-    <field name="app_label" type="CharField">statistic</field>
-    <field name="model" type="CharField">fund</field>
-  </object>
   <object model="statistic.fund" pk="55">
     <field name="name" type="CharField">Aberdeen Global - Emerging Markets Local Currency Bond Fund</field>
   </object>
